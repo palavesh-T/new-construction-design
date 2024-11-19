@@ -1,0 +1,351 @@
+.construction_head_pic img{
+    width: 100%;
+    height: 100vh;
+}
+.construction_choose_div_1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.choose_main_div_1 h3{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    width: 30%;
+}
+.construction_choose_div{
+    display: flex;
+    gap:20px;
+    padding: 20px;
+}
+.choose_main_div,.construction_choose_div_1,.about_main_div_conts,.about_sub_div_1,.project_div_1,.project_image_div{
+    width: 100%;
+}
+.choose_main_div_2 h1{
+    font-size: xxx-large;
+    font-family: serif;
+}
+.choose_main_div_3 h3{
+    color: #555855;
+    font-family: emoji;
+    font-size: 18px;
+    line-height: 28px;
+}
+.construction_about_div{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5 )),  url("../images/service\ head.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.about_sub_pic img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 10px;
+}
+.about_main_div{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.about_main_div_conts h1{
+    font-size: xxx-large;
+    font-family: serif;
+    color: #ffff;
+}
+.about_main_div_conts h3{
+    color: #ffffff;
+    font-family: emoji;
+    font-size: 18px;
+    line-height: 28px;
+}
+.about_main_div_conts h2{
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 30px;
+  width: 30%;
+  color: #fff;
+  font-size: 15px;
+
+}
+.about_projct{
+    display: flex;
+    gap: 40%;
+    padding: 20px;
+}
+.about_projct_1 p,.about_projct_2 p{
+    color: #fff;
+}
+.about_projct_1 h2,.about_projct_2 h2{
+    color: #fff;
+   text-align: center;
+   font-size: 30px;
+}
+.project_image_div_1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 9px;
+    border-radius: 10px;
+}
+.project_main_div_1{
+    display: flex;
+    gap:20px;
+    padding: 20px;
+}
+.project_div_1 h1{
+    font-size: xxx-large;
+    font-family: serif;
+}
+.project_div_1 h2{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    width: 40%;
+}
+.project_btn button{
+    padding: 15px 30px;
+    border-radius: 25px;
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+}
+.project_div_1{
+    margin: auto;
+}
+.service_main_div{
+    background-image: url(../images//service\ background.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #87ceeb6e;
+    padding: 50px;
+}
+.service_div_main {
+    padding: 20px;
+}
+.service_div_main h2{
+  text-align: center;
+}
+.service_div_main h1{
+    text-align: center;
+    font-size: 50px;
+}
+.service_div_main p{
+    text-align: center;
+}
+.service_card_pic_1 {
+    position: relative;
+    width: 250%;
+    height: auto;
+   
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+.service_card_pic_1 img{
+  
+    width: 100%;
+    height: 150%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.service_card_pic{
+    display: flex;
+    gap: 20px;
+    /* padding: 20px;
+ */
+
+}
+.service_card_pic_1:hover img {
+    transform: scale(1.1);
+  }
+  
+  .service_card_pic_1 .overlay {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .service_card_pic_1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .service_card_pic_1 .overlay h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .service_card_pic_1 .overlay p {
+    margin: 5px 0 0;
+    font-size: 14px;
+  }
+
+  .construction_background_div{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5 )), url(../images//background1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+  }
+  .background_div_1{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  .background_card_div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .background_card_div p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.9;
+  }
+  .background_card_div svg{
+    width: 3em;
+    height: 3em;
+    position: relative;
+    display: block;
+    color: orange;
+  }
+  .background_card_div h2{
+    font-size: 20px;
+  }
+  .looking_main_div{
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+    background: aliceblue;
+  }
+  .looking_btn{
+    position: relative;
+    left: 10%;
+    margin: auto;
+  }
+ .looking_btn button{
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+ }
+
+
+ @media (max-width: 768px) {
+  .construction_head_pic img {
+      height: 60vh; /* Adjust height for smaller screens */
+  }
+
+  .construction_choose_div,
+  .about_main_div,
+  .about_projct,
+  .project_main_div_1,
+  .service_card_pic,
+  .background_div_1,
+  .looking_main_div {
+      flex-direction: column; /* Stack elements vertically */
+      gap: 10px; /* Reduce gap */
+      padding: 10px; /* Adjust padding */
+  }
+
+  .choose_main_div_1 h3,
+  .about_main_div_conts h2,
+  .project_div_1 h2 {
+    text-align: center;
+    width: 51%;
+    font-size: 15px;
+  }
+
+  .choose_main_div_2 h1,
+  .about_main_div_conts h1,
+  .project_div_1 h1,
+  .service_div_main h1 {
+      font-size: 28px; /* Reduce heading size */
+      text-align: center;
+  }
+
+  .choose_main_div_3 h3,
+  .about_main_div_conts h3,
+  .service_div_main p,
+  .background_card_div p {
+      font-size: 14px; /* Adjust paragraph font size */
+      line-height: 1.5; /* Maintain readability */
+      text-align: justify;
+  }
+
+  .construction_choose_div_1 img,
+  .about_sub_pic img,
+  .project_image_div_1 img,
+  .service_card_pic_1 img {
+      height: auto; /* Ensure images scale properly */
+  }
+
+  .about_projct_1 p,
+  .about_projct_2 p {
+      font-size: 14px; /* Adjust paragraph font size */
+      line-height: 1.5;
+      text-align: center;
+  }
+
+  .about_projct_1 h2,
+  .about_projct_2 h2 {
+      font-size: 20px; /* Reduce heading size */
+  }
+
+  .service_card_pic_1 {
+      width: 100%; /* Ensure full width on smaller screens */
+  }
+
+  .background_card_div {
+      padding: 15px; /* Adjust padding */
+      border-radius: 10px; /* Slightly reduce border radius */
+  }
+
+  .background_card_div h2 {
+      font-size: 16px; /* Adjust font size */
+  }
+
+  .looking_btn button {
+      width: 100%; /* Full-width button for smaller screens */
+      padding: 10px; /* Adjust padding */
+      font-size: 16px; /* Adjust font size */
+  }
+
+  .service_div_main h2 {
+      font-size: 20px; /* Adjust font size */
+      text-align: center;
+  }
+
+  .service_card_pic_1 img {
+      height: auto; /* Ensure images are responsive */
+      object-fit: contain; /* Adjust fit for smaller screens */
+  }
+
+  .construction_background_div {
+      padding: 20px; /* Reduce padding */
+      background-size: cover; /* Maintain background scaling */
+  }
+  .service_main_div {
+    background-image: url(http://localhost:3000/static/media/service%20background.88b7a27….png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #87ceeb6e;
+    padding: 10px;
+}
+}

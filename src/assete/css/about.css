@@ -1,0 +1,272 @@
+.about_main_pic_add img{
+    width: 100%;
+    height: 80vh;
+}
+.about_div_2 img{
+    width: 100%;
+    height: auto;
+}
+.about_div_2,.about_conts_div,.about_cal_div_1,.about_cal_div_2,.history_div,.history_conts_div{
+    width: 100%;
+}
+.about_div_1,.about_cal_div{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.about_conts_div_1{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background-color: #87ceeb69;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.about_conts_div_1 svg{
+    width: 15px;
+}
+.about_conts_div_1 svg{
+    color: orange;
+}
+.about_cal_div_1{
+    margin: auto;
+}
+.about_conts_div h1,.history_conts_div h1{
+    font-size: xxx-large;
+    font-family: serif;
+}
+.about_conts_div h3{
+    color: orange;
+}
+.about_conts_div_1 h2{
+    font-size: 20px;
+    font-family: emoji;
+}
+.about_conts_div p{
+    font-size: 15px;
+    line-height: 1.9;
+}
+.about_cal_div_1 button{
+    padding: 20px 70px;
+    border-radius: 15px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+}
+.about_cal_div_2 {
+    display: flex; /* Enables flex layout */
+    align-items: center; /* Aligns items vertically */
+    gap: 15px; /* Adds spacing between elements */
+    padding: 10px;
+ 
+  }
+  
+  .about_cal_div_2 svg {
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+    color: orange; /* Change icon color */
+  }
+  
+  .about_cal_div_2 h4 {
+    /* margin: 0; */
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .about_cal_div_2 h5 {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+  }
+  .history_div img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  .abut_history_main_div{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  .about_history{
+    background-color: #87ceeb66;
+    padding: 50px;
+  }
+  .history_conts_div p{
+    font-size: 15px;
+    line-height: 1.9;
+    color: #333;
+    font-family: math;
+    text-align: justify;
+  }
+  .history_conts_div h2{
+    font-size: 20px;
+    color: orange;
+  }
+  .about_mission_div{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+  }
+  .about_mission_div_1{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .about_mission_div_1 svg{
+    width: 50px;
+    color: orange;
+  }
+  .about_mission_div_1 h2{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .about_mission_div_1 p{
+    font-size: 15px;
+    line-height: 1.9;
+  }
+  .about_final_div_1{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+  }
+  .about_final_div{
+    background-image: url(../images//back.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #12223b;
+  }
+  .final_div_1{
+    margin: auto;
+  }
+  .final_div_1 h1{
+    font-size: xxx-large;
+    color: #fff;
+  }
+  .final_div_1 p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+  .final_div_btn button{
+    padding: 20px 70px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .final_div_pic img{
+    width: 100%;
+    height: auto;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .about_main_pic_add img {
+        height: 50vh; /* Reduce height for smaller screens */
+    }
+
+    .about_div_1,
+    .about_cal_div,
+    .abut_history_main_div,
+    .about_mission_div,
+    .about_final_div_1 {
+        flex-direction: column; /* Stack items vertically */
+        gap: 15px; /* Reduce gap */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .about_conts_div h1,
+    .history_conts_div h1 {
+        font-size: 24px; /* Reduce heading size */
+        text-align: center; /* Center text for smaller screens */
+    }
+
+    .about_conts_div h3 {
+        font-size: 18px; /* Adjust font size */
+        text-align: center;
+    }
+
+    .about_conts_div_1 {
+        width: 90%; /* Full width for smaller screens */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .about_conts_div p,
+    .history_conts_div p {
+        font-size: 14px; /* Adjust paragraph font size */
+        line-height: 1.7; /* Maintain readability */
+        text-align: justify;
+    }
+
+    .about_cal_div_1 button {
+        width: 40%; /* Make button responsive */
+        padding: 15px; /* Adjust padding */
+    }
+
+    .about_cal_div_2 {
+        gap: 10px; /* Reduce gap */
+        padding: 5px; /* Adjust padding */
+    }
+
+    .about_cal_div_2 svg {
+        width: 30px; /* Adjust icon size */
+        height: 30px;
+    }
+
+    .about_cal_div_2 h4,
+    .about_cal_div_2 h5 {
+        font-size: 14px; /* Adjust text size */
+    }
+
+    .history_div img {
+        height: auto; /* Ensure proper scaling */
+    }
+
+    .about_history {
+        padding: 20px; /* Reduce padding */
+    }
+
+    .about_mission_div_1 {
+        padding: 15px; /* Reduce padding */
+    }
+
+    .about_mission_div_1 h2 {
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .about_mission_div_1 p {
+        font-size: 14px; /* Adjust paragraph font size */
+    }
+
+    .about_final_div {
+        padding: 20px; /* Adjust padding */
+        background-size: cover; /* Ensure proper background scaling */
+    }
+
+    .final_div_1 {
+        text-align: center; /* Center-align text */
+    }
+
+    .final_div_1 h1 {
+        font-size: 24px; /* Adjust font size */
+    }
+
+    .final_div_1 p {
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .final_div_btn button {
+        width: 50%; /* Full width for button */
+        padding: 15px; /* Adjust padding */
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .final_div_pic img {
+        height: auto; /* Ensure proper scaling */
+    }
+}

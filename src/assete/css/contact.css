@@ -1,0 +1,221 @@
+.contact_main_div img{
+    width: 100%;
+    height: 80vh;
+}
+.contact_div_1{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+.contact_div_2{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 100%;
+    height: 30vh;
+    padding: 20px;
+    border-radius: 25px;
+}
+.contact_div_2 svg{
+    width: 50px;
+    color: orange;
+}
+.contact_main_div_form{
+    background-image: url(../images//contact-us-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #87ceeb57;
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+.contact_div_card{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+   padding: 30px;
+   background-color: darkblue;
+   border-radius: 20px;
+}
+.contact_div_card_1 svg{
+    width: 50px;
+    color: orange;
+   margin-left: 40%;
+}
+.contact_div_card_2 svg{
+    width: 50px;
+    color: orange;
+   margin-left: 40%;
+}
+.contact_div_card_1 h2,.contact_div_card_2 h2{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+.contact_div_card_1 p,.contact_div_card_2 p{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+}
+.contact_card_pic img{
+    width: 100%;
+}
+.cont_form{
+    display: flex;
+    gap: 20px;
+  
+}
+.contact_form_main_div_hed{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+.cont_form input,.cont_form_1 input,.cont_form_2 textarea{
+    width: 100%;
+    padding: 10px;
+}
+.from_conts {
+    margin-bottom: 20px;
+}
+.from_conts h2{
+    text-align: justify;
+    color: orange;
+}
+.from_conts p{
+    text-align: justify;
+    font-size: 50px;
+}
+
+
+.cont_form,
+.cont_form_1,
+.cont_form_2 {
+    margin-bottom: 15px;
+}
+
+.cont_form input,
+.cont_form_1 input,
+.cont_form_2 textarea {
+    width: 100%;
+    padding: 20px;
+    font-size: 1rem;
+     border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.cont_form_2 textarea {
+    resize: none;
+    height: 200px;
+}
+
+.cont_form_btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cont_form_btn button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cont_form_btn button:hover {
+    background-color: #0056b3;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 768px) {
+    .contact_main_div img {
+        height: 50vh; /* Reduce image height for smaller screens */
+    }
+
+    .contact_div_1 {
+        flex-direction: column; /* Stack items vertically */
+        padding: 20px;
+        gap: 10px; /* Reduce the gap for smaller screens */
+    }
+
+    .contact_div_2 {
+        height: auto; /* Allow the height to adjust automatically */
+        padding: 15px; /* Reduce padding */
+        width: 90%;
+    }
+
+    .contact_main_div_form {
+        flex-direction: column; /* Stack items vertically */
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .contact_div_card {
+        padding: 20px; /* Reduce padding */
+        border-radius: 15px; /* Slightly smaller border radius */
+    }
+
+    .contact_div_card_1 svg,
+    .contact_div_card_2 svg {
+        margin-left: auto;
+        margin-right: auto;
+        display: block; /* Center the SVG */
+    }
+
+    .contact_div_card_1 h2,
+    .contact_div_card_2 h2 {
+        font-size: 14px; /* Smaller text size */
+    }
+
+    .contact_div_card_1 p,
+    .contact_div_card_2 p {
+        font-size: 18px; /* Adjust font size for better readability */
+    }
+
+    .contact_card_pic img {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .contact_form_main_div_hed {
+        padding: 20px;
+        width: 90%; /* Use full width for small screens */
+    }
+
+    .from_conts p {
+        font-size: 24px; /* Reduce the font size */
+    }
+
+    .cont_form,
+    .cont_form_1,
+    .cont_form_2 {
+        flex-direction: column; /* Stack input fields */
+        gap: 10px; /* Reduce gap between inputs */
+    }
+
+    .cont_form input,
+    .cont_form_1 input,
+    .cont_form_2 textarea {
+        padding: 10px; /* Adjust padding */
+        font-size: 0.9rem; /* Slightly smaller text size */
+    }
+
+    .cont_form_2 textarea {
+        height: 150px; /* Reduce height */
+    }
+
+    .cont_form_btn button {
+        font-size: 0.9rem; /* Adjust button font size */
+        padding: 8px 16px; /* Reduce padding */
+    }
+}
